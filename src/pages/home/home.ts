@@ -14,4 +14,14 @@ export class HomePage extends BasePage {
 
     console.log("HomePage - constructor");
   }
+
+  ngOnInit() {
+    console.log("HomePage - ngOnInit");
+    super.ngOnInit();
+  }
+
+  ngOnDestroy() {
+    console.log("HomePage - ngOnDestroy");
+    super.ngOnDestroy();
+  }
 }
